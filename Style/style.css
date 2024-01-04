@@ -1,3 +1,52 @@
-h1{
-    color: rgb(47, 141, 141);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-position:bottom center;
+    background-size: cover;
+    font-family:'Lato', sans-serif;
+}
+.hero{
+    background-image: url('../Images/photo-1505533321630-975218a5f66f.avif');
+    height:100vh;
+}
+.hero h1{
+
+    color: azure;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    padding: 60px;
+    font-family: cursive;
+    word-spacing: 10px;
+
+}
+.artical , #site{
+    width: 80%;
+    margin: 20px auto;
+    background-color: azure;
+    padding: 60px;
+    border-width: 15px;
+    border-color: yellow;
+    border-style: solid;
+
+
+}
+.artical h2{
+    text-align: center;
+    font-size: 48px;
+    border-bottom: 10px solid tomato;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+.artical p{
+    font-size: 28px;
+    line-height: 2em;
+
+}
+.artical p .imp{
+    font-size: 2em;
+    background-color: blue;
 }
