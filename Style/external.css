@@ -1,0 +1,9 @@
+.container{
+  width: 100%;
+  overflow: auto;
+}
+.paragraph{
+  width: 50%;
+  float: left;
+  height: 260px;
+}
